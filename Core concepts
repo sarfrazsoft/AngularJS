@@ -66,3 +66,5 @@ app.controller('myCtrl', function($scope) {
 </script>
 
 https://chat.openai.com/share/232560df-ae1f-4238-838d-1975d3aa888d
+
+https://www.w3schools.com/angular/angular_examples.asp
