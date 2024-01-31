@@ -3,7 +3,6 @@ AngularJS extends HTML with new attributes.
 First, you will learn the basics of AngularJS: directives, expressions, filters, modules, and controllers.
 
 Then you will learn everything else you need to know about AngularJS:
-
 Events, DOM, Forms, Input, Validation, Http, and more.
 
 AngularJS is a JavaScript framework. It can be added to an HTML page with a <script> tag.
@@ -14,9 +13,7 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 AngularJS extends HTML with ng-directives.
 
 The ng-app directive defines an AngularJS application.
-
 The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
-
 The ng-bind directive binds application data to the HTML view.
 
 <div ng-app="">
@@ -27,9 +24,7 @@ The ng-bind directive binds application data to the HTML view.
 AngularJS starts automatically when the web page has loaded.
 
 The ng-app directive tells AngularJS that the <div> element is the "owner" of an AngularJS application.
-
 The ng-model directive binds the value of the input field to the application variable name.
-
 The ng-bind directive binds the content of the <p> element to the application variable name.
 
 AngularJS directives are HTML attributes with an ng prefix.
@@ -40,7 +35,9 @@ The ng-init directive initializes AngularJS application variables.
 <p>The name is <span ng-bind="firstName"></span></p>
 </div>
 
-You can use data-ng-, instead of ng-, if you want to make your page HTML valid.
+Instead of ng-, you can use data-ng-, if you want to make your page HTML valid.
+Both are equivalent in terms of AngularJS functionality, but the latter adheres to the HTML5 standard by using the data- prefix. 
+This can be important in situations where HTML validation is enforced or when you want to make sure your code follows the best practices recommended by HTML specifications.
 
 AngularJS expressions are written inside double braces: {{ expression }}.
 
